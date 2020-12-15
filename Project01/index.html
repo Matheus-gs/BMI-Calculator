@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="nav">
+        <h1 class="title">Project 01</h1>
+    </div>
+
+    <div id="page">
+
+        <div id="boxapp">
+            <div id="app">
+                <h1 class="content">Calcule seu IMC!</h1>
+                    <div id="box">
+                    
+                        <input id = 'peso' type="text" placeholder="Insira seu peso"></input>
+                        <input id = 'altura' type="text" placeholder="Insira sua altura"></input>
+
+                        <button onclick = "calcularImc()" id = "sendbutton" type = "submit" >Calcular</button>
+                    </div>
+            </div>
+        </div>
+
+        <div id="boxresultado">
+            <div id =" resultado">
+                <h1 class="content">Seu IMC é: </h1>
+                
+                <h1 id="result"></h1>
+            </div>
+        </div>
+
+        <div id="moreinfo">
+            <h3>Mais projetos em: <a href="https://github.com/Matheus-gs">GitHub.com</a></h3>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

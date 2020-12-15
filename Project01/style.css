@@ -1,0 +1,97 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+#nav{
+    background-color:  rgb(0, 0, 0);
+    box-shadow: black 5px 2px 10px 2px;
+    margin: -21px;
+    width: 1379px;
+}
+.title{
+    font-style: italic;
+    font-weight: 100;
+    padding: 10px 5px 4px 5px;   
+}
+#page{
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgb(0, 0, 0) 1px 2px 10px 1px;
+    width: 1300px;
+    height: 550px;
+    position: relative;
+}
+#boxapp{
+    padding-top: 10px;
+    text-align: center;
+    width: 610px;
+    height: 400px;
+    background-color: rgb(0, 83, 151);
+    float: left;
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+#boxresultado{
+    float: right;
+    margin-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    width: 610px;
+    height: 500px;
+    background-color: rgb(36, 36, 36);
+    margin-top: 18px; 
+    border-radius: 10px;     
+}
+#box{
+    width: 200px;
+    /* height: 300px; */
+    margin-top: 60px;
+    margin-left: 180px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+#peso,#altura{
+    width: 250px;
+    height:30px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 10px;
+}
+#sendbutton{
+    background-color: rgb(0, 225, 233);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: 50px ;
+}
+/* #app{
+
+} */
+#result{
+    font-size: 30px;
+    margin-top:120px;
+    color: ghostwhite;
+    font-weight: bold;
+    text-align: center;
+}
+#moreinfo{
+    color: black;
+    width: 250px;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 440px; 
+}
+a{
+    text-decoration: none;
+}

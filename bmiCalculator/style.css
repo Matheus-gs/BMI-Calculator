@@ -1,0 +1,374 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* Mobile */
+@media (max-width: 600px) {
+  #App {
+    background-image: url(../bmiCalculator/images/pesos.jpg);
+    height: 812px;
+  }
+  #bgApp {
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 812px;
+  }
+  #elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #box {
+    width: 300px;
+    height: 350px;
+    margin-top: 20%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  #title {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .unitsInput {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+  }
+  #sendButton {
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #sendButton:hover {
+    background-color: #0d6ffd;
+    border-color: #0d6ffd;
+    color: #ffffff;
+  }
+  /*  */
+  #advice {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #returnButton {
+    width: 150px;
+  }
+  /*  */
+  #footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+  }
+  #footer p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 815px) {
+  #App {
+    background-image: url(../bmiCalculator/images/pesos.jpg);
+    height: 1024px;
+  }
+  #bgApp {
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 1024px;
+  }
+  #elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #box {
+    width: 350px;
+    height: 350px;
+    margin-top: 20%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  #title {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .unitsInput {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+  }
+  #sendButton {
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #sendButton:hover {
+    background-color: #0d6ffd;
+    border-color: #0d6ffd;
+    color: #ffffff;
+  }
+  /*  */
+  #advice {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #returnButton {
+    width: 150px;
+  }
+  /*  */
+  #footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+  }
+  #footer p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    text-align: center;
+  }
+}
+@media (min-width: 820px) and (max-width: 1030px) {
+  #App {
+    background-image: url(../bmiCalculator/images/pesos.jpg);
+    height: 1366px;
+  }
+  #bgApp {
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 1366px;
+  }
+  #elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #box {
+    width: 550px;
+    height: 450px;
+    margin-top: 50%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  #title {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .unitsInput {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+  }
+  #sendButton {
+    width: 350px;
+    height: 50px;
+    margin-top: 55px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #sendButton:hover {
+    background-color: #0d6ffd;
+    border-color: #0d6ffd;
+    color: #ffffff;
+  }
+  /*  */
+  #advice {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #returnButton {
+    width: 250px;
+  }
+  /*  */
+  #footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+  }
+  #footer p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    text-align: center;
+  }
+}
+@media (min-width: 1080px) and (max-width: 1370px) {
+  #App {
+    background-image: url(../bmiCalculator/images/pesos.jpg);
+    height: 1024px;
+  }
+  #bgApp {
+    background-color: rgba(0, 0, 0, 0.725);
+    height: 1024px;
+  }
+  #elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #box {
+    width: 550px;
+    height: 450px;
+    margin-top: 50%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #ffffff;
+    border-radius: 15px;
+  }
+  #title {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .unitsInput {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+  }
+  #sendButton {
+    width: 350px;
+    height: 50px;
+    margin-top: 55px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #sendButton:hover {
+    background-color: #0d6ffd;
+    border-color: #0d6ffd;
+    color: #ffffff;
+  }
+  /*  */
+  #advice {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #returnButton {
+    width: 250px;
+  }
+  /*  */
+  #footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+  }
+  #footer p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    text-align: center;
+  }
+}
+/* Mobile */
+
+/* Desktop */
+@media (min-width: 1366px) {
+  #App {
+    background-image: url(../bmiCalculator/images/pesos.jpg);
+    height: 625px;
+  }
+  #bgApp {
+    background-color: rgb(0, 0, 0, 0.725);
+    height: 625px;
+  }
+  #elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /*  */
+  #box {
+    width: 350px;
+    height: 350px;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.725);
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  #title {
+    margin-top: 15px;
+    padding-bottom: 20px;
+  }
+  .unitsInput {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #ffffff;
+  }
+  #sendButton {
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+  #sendButton:hover {
+    background-color: #0d6ffd;
+    border-color: #0d6ffd;
+    color: #ffffff;
+  }
+  /*  */
+  #advice {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  #returnButton {
+    width: 150px;
+  }
+  /*  */
+  #footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+  }
+  #footer p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    text-align: center;
+  }
+}
+/* Desktop */

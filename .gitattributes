@@ -1,4 +1,4 @@
 * linguist-vendored
-*.HTML linguist-vendored=false
+*.HTML linguist-vendored=true
 
-*.CSS linguist-detectable=true
+*.CSS linguist-detectable=false
